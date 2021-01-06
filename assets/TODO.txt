@@ -1,0 +1,8 @@
+TODO LISTE
+JFrame erstellen ✓
+Punkt auf JFrame zeichnen
+Punkt steuern 
+Threading erstellen
+60 FpS anpeilen
+
+Tile Map
