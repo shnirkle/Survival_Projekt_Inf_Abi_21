@@ -65,7 +65,7 @@ public class Game extends JPanel implements Runnable, KeyListener {
 
 			x += -1 * l + r;
 			y += -1 * u + d;
-			this.paintImage(this,  img1);
+			//his.paintImage(this,  img1);
 			//System.out.println("X:" + x + "  Y:" + y);
 			
 			try {
@@ -135,12 +135,13 @@ public class Game extends JPanel implements Runnable, KeyListener {
 			System.out.println("D");
 			d = 0;
 		}
-
+ 
 	}
 
 	@Override
 	public void keyTyped(KeyEvent e) {
-		// TODO Auto-generated method stub
+		char key = e.getKeyChar();
+		System.out.println(key);
 
 	}
 
